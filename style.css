@@ -1,6 +1,6 @@
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
 body {
@@ -22,7 +22,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 1vmin;
+  gap: 1.5vmin;
 }
 
 .box {
@@ -30,43 +30,41 @@ body {
   width: 18vmin;
   border-radius: 1rem;
   border: none;
-  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 1rem rgb(0, 0, 0, 0.5);
   font-size: 8vmin;
-  color: #b0413e;
+  background-color: aquamarine;
+  color: brown;
 }
 
-.box::clicked {
-  background-color: aqua;
-}
-
-#reset-btn {
+#reset {
   padding: 1rem;
-  background-color: #191913;
-  color: white;
-  border-radius: 1rem;
   font-size: 1.25rem;
+  border-radius: 1rem;
   border: none;
+  cursor: pointer;
+  background-color: #191913;
+  color: whitesmoke;
 }
-
 #new-btn {
   padding: 1rem;
-  background-color: #191913;
-  color: white;
-  border-radius: 1rem;
   font-size: 1.25rem;
+  border-radius: 1rem;
   border: none;
+  cursor: pointer;
+  background-color: #191913;
+  color: whitesmoke;
 }
 
-#msg {
-  font-size: 5vmin;
-  color: #ffffc7;
+.msg {
+  font-size: 6vmin;
+  color: aquamarine;
 }
 
 .msg-container {
   height: 100vmin;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   gap: 4rem;
 }
@@ -74,4 +72,7 @@ body {
 .hide {
   display: none;
 }
- 
+
+/* .show {
+  display: none;
+} */
